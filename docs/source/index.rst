@@ -72,7 +72,7 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
    :caption: 설치
    :maxdepth: 2
 
-   설치 <install/install>
+   설치 <install/install-openstack>
 
 --------
 
@@ -80,7 +80,7 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
    :caption: 운영
    :maxdepth: 2
 
-   설치 <operation/operation>
+   설치 <operation/operation-openstack>
 
 
 연락처

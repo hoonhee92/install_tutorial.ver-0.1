@@ -1,4 +1,4 @@
-coremax openstack 운영 가이드
+COREMAX OPENSTACK 운영 가이드
 =====================
 
 -_-

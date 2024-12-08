@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'coremaxtech.opemstack.guide'
+project = 'coremaxtech.openstack.guide'
 copyright = '2024, coremaxtech'
 author = '박훈희'
 

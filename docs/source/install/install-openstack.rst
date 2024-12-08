@@ -1,4 +1,4 @@
-coremax openstack 설치가이드
+COREMAX OPENSTACK 설치 가이드
 =====================
 
 -_-

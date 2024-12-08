@@ -69,13 +69,19 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 --------
 
 .. toctree::
+   :caption: 설치
    :maxdepth: 2
-   :caption: 목차
 
-   소개
-   설치/index
-   운영/index
-   릴리즈
+   설치 <install/install>
+
+--------
+
+.. toctree::
+   :caption: 운영
+   :maxdepth: 2
+
+   설치 <operation/operation>
+
 
 연락처
 --------

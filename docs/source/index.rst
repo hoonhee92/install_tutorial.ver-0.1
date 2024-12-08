@@ -69,7 +69,7 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 --------
 
 .. toctree::
-   :caption: 설치
+   :caption: 설치 가이드
    :maxdepth: 2
 
    설치 <install/install-openstack>
@@ -77,10 +77,19 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 --------
 
 .. toctree::
-   :caption: 운영
+   :caption: 운영 가이드
    :maxdepth: 2
 
-   설치 <operation/operation-openstack>
+   운영 <operation/operation-openstack>
+
+--------
+
+.. toctree::
+   :caption: 릴리즈
+   :maxdepth: 2
+
+   coremax-1.0.1 <release/coremax-1.0.1>
+
 
 
 연락처

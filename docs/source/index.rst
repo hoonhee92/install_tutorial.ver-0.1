@@ -69,7 +69,7 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 --------
 
 **회사명**
-- CoreMax Technology Co., Ltd.
+- CoreMax Technology Co. Ltd.
 
 **주소**
 - 서울특별시 금천구 가산디지털1로 2, 207 (가산동, 우림라이온스밸리 2차)

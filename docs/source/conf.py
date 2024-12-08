@@ -36,8 +36,3 @@ html_allow_unicode = True  # HTML 특수 문자 및 유니코드를 허용
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-html_static_path = ["_static"]  # _static 경로를 사용
-
-html_css_files = [
-    "custom.css",  # 사용자 정의 CSS

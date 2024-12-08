@@ -31,5 +31,8 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# conf.py 파일에서 추가 또는 확인할 설정
+html_allow_unicode = True  # HTML 특수 문자 및 유니코드를 허용
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

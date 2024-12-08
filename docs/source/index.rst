@@ -24,8 +24,9 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 
    - 멀티노드 구성: 컨트롤러, 컴퓨팅, 스토리지 노드로 분리된 구조로 안정성과 성능을 최적화
 
-   - Ceph 통합: Cinder와 Manila를 통한 블록 및 파일 스토리지 지원
+   - Ceph 통합: Cinder와 Manila를 통한 블록 및 파일 스토리지 지원  
 
+  
    - Nova 최적화: 다양한 하이퍼바이저(KVM, VMware)와의 호환성 제공
 
 
@@ -89,13 +90,12 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 
 **회사명**
 
-- CoreMax Technology Co., Ltd.  
+- CoreMax Technology Co., Ltd.
 
 
 **주소**
 
 - 서울특별시 금천구 가산디지털1로 2, 207 (가산동, 우림라이온스밸리 2차) 
-
 
 **전화**
 
@@ -103,4 +103,5 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 
 
 **이메일**
+
 - hhpark@coremaxtech.com  

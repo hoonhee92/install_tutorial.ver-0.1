@@ -104,34 +104,34 @@ ELK Stack은 OpenStack과 Kubernetes 환경에서 생성되는 로그 데이터�
 
 주요 구성 요소
 ~~~~~~~~~~~~
-1. **Elasticsearch**:
+- **Elasticsearch**:
 
    - 로그 데이터를 저장하고 검색할 수 있는 분산형 검색 엔진.
    - OpenStack과 Kubernetes에서 생성된 모든 로그 데이터를 중앙에 저장하여 효율적으로 관리.
 
-2. **Logstash**:
+- **Logstash**:
 
    - 로그 데이터를 수집, 처리, 변환하여 Elasticsearch로 전달.
    - Nova, Neutron, Kubernetes 파드 로그 등 다양한 로그 소스를 통합.
 
-3. **Kibana**:
+- **Kibana**:
 
    - Elasticsearch 데이터를 시각화하고 대시보드를 구성하는 도구.
    - 클러스터 상태, 자원 사용량, 장애 발생 로그를 실시간으로 시각화.
 
 활용 사례
 ~~~~~~~~~~~~
-1. **로그 관리**:
+- **로그 관리**:
 
    - OpenStack 서비스(Nova, Neutron, Cinder 등)의 로그 데이터를 통합적으로 관리.
    - Kubernetes 시스템 이벤트와 파드 상태를 Elasticsearch에 저장.
 
-2. **실시간 대시보드**:
+- **실시간 대시보드**:
 
    - Grafana와 Kibana를 활용하여 주요 로그 데이터를 시각화.
    - 서비스 상태와 에러 발생 빈도를 한눈에 파악 가능.
 
-3. **문제 분석 및 경고**:
+- **문제 분석 및 경고**:
 
    - Elasticsearch Watcher를 사용하여 특정 에러 로그나 이상 패턴 감지 시 알림 발송.
    - Slack 또는 이메일을 통해 관리자에게 경고 메시지 전달.
@@ -159,22 +159,22 @@ Kubernetes 요구사항
 설치 방법
 ----------
 
-1. **OpenStack 환경 준비**:
+- **OpenStack 환경 준비**:
 
    - Kolla Ansible을 사용하여 OpenStack 클러스터 구성
    - Ceph 및 Manila 설정 완료
 
-2. **Kubernetes 클러스터 설치**:
+- **Kubernetes 클러스터 설치**:
 
    - OpenStack에서 VM 생성 (마스터 및 워커 노드)
    - Kubespray를 사용하여 Kubernetes 클러스터 설치
 
-3. **서비스 통합**:
+- **서비스 통합**:
 
    - OpenStack Cinder를 사용하여 Kubernetes PersistentVolume 구성
    - OpenStack Neutron을 통해 Kubernetes 네트워크 연결 설정
 
-4. **ELK Stack 구성**:
+- **ELK Stack 구성**:
 
    - Elasticsearch, Logstash, Kibana를 Kubernetes 클러스터나 OpenStack VM에 배포.
    - OpenStack 서비스 및 Kubernetes 로그 데이터를 수집하고 분석 가능하도록 구성.

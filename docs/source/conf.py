@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'coremaxtech.opemstack.guide'
+copyright = '2024, coremaxtech'
+author = '박훈희'
 
 release = '0.1'
 version = '0.1.0'

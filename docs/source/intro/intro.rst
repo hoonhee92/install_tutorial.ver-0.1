@@ -1,4 +1,4 @@
-coremax openstack 소개
+COREMAX OPENSTACK 개요
 =====================
 
 -_-

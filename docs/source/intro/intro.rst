@@ -11,7 +11,7 @@ COREMAX OPENSTACK 개요
 ----------
 
 OpenStack 환경
-
+~~~~~~~~~~~~
 - **배포 방식**: Kolla Ansible을 사용한 자동화 배포
 
 - **구성 노드**: 3대의 컨트롤러 노드로 구성된 멀티노드 환경
@@ -26,7 +26,7 @@ OpenStack 환경
 - **올인원 구성**: 모든 주요 OpenStack 서비스가 단일 환경에서 통합 운영 가능
 
 스토리지
-
+~~~~~~~~~~~~
 - **Ceph RBD**:
   - RBD 백엔드를 사용하여 블록 스토리지(Cinder)를 지원
   - 데이터 백업 기능 제공
@@ -35,12 +35,12 @@ OpenStack 환경
   - Manila를 활용하여 CephFS 기반 파일 공유 기능 제공
 
 보고서 기능
-
+~~~~~~~~~~~~
 - 각 컨트롤러 노드에서 실행 중인 **인스턴스 정보** 수집 및 자동화된 보고서 생성
 - 인스턴스 상태, 리소스 사용량, 네트워크 연결 정보 등을 포함한 상세 보고서 출력 가능
 
 모니터링
-
+~~~~~~~~~~~~
 - **Grafana 대시보드**:
   - 스토리지, 데이터베이스, 네트워크 및 OpenStack 서비스 상태를 실시간으로 모니터링
   - 사용자 친화적인 대시보드를 통해 시스템의 전체적인 상태를 한눈에 파악 가능
@@ -49,7 +49,7 @@ OpenStack 환경
   - 클러스터 가용성, 성능 지표, 장애 로그 등을 효율적으로 관리
 
 웹 콘솔 및 Windows 인스턴스 개선
-
+~~~~~~~~~~~~
 - 웹 콘솔의 속도 문제를 해결하여 **실시간 응답성** 제공.
 - OpenStack에서 Windows 인스턴스를 쉽게 생성할 수 있도록 네트워크 드라이버 및 VirtIO 드라이버 통합.
 - Windows 기반 애플리케이션 실행 환경을 완벽히 지원.
@@ -75,7 +75,7 @@ VDI 서비스 계획
 **RDP(Remote Desktop Protocol)** 기반의 VDI(Virtual Desktop Infrastructure) 서비스를 계획 중입니다. 사용자는 RDP를 통해 OpenStack에서 실행 중인 Windows 및 Linux 가상 머신에 쉽게 접속할 수 있습니다.
 
 주요 기능
-
+~~~~~~~~~~~~
 - **웹 콘솔 대안**: SPICE 또는 NoVNC 대신 RDP 기반 접속 지원.
 
 - **원격 데스크톱 환경**:
@@ -91,7 +91,7 @@ ELK Stack 구성
 ELK Stack은 OpenStack과 Kubernetes 환경에서 생성되는 로그 데이터를 통합 관리하고, 실시간으로 모니터링하며 문제를 분석할 수 있는 강력한 도구입니다.
 
 주요 구성 요소
-
+~~~~~~~~~~~~
 1. **Elasticsearch**:
    - 로그 데이터를 저장하고 검색할 수 있는 분산형 검색 엔진.
    - OpenStack과 Kubernetes에서 생성된 모든 로그 데이터를 중앙에 저장하여 효율적으로 관리.
@@ -105,7 +105,7 @@ ELK Stack은 OpenStack과 Kubernetes 환경에서 생성되는 로그 데이터�
    - 클러스터 상태, 자원 사용량, 장애 발생 로그를 실시간으로 시각화.
 
 활용 사례
-
+~~~~~~~~~~~~
 1. **로그 관리**:
    - OpenStack 서비스(Nova, Neutron, Cinder 등)의 로그 데이터를 통합적으로 관리.
    - Kubernetes 시스템 이벤트와 파드 상태를 Elasticsearch에 저장.
@@ -122,16 +122,16 @@ ELK Stack은 OpenStack과 Kubernetes 환경에서 생성되는 로그 데이터�
 ---------
 
 OpenStack 환경
-
+~~~~~~~~~~~~
 - Kolla Ansible을 사용한 배포 완료
 - Ceph 스토리지 및 Manila 설정 완료
 
 지원 OS
-
+~~~~~~~~~~~~
 - Ubuntu 22.04 LTS (OpenStack 노드 및 Kubernetes 노드)
 
 Kubernetes 요구사항
-
+~~~~~~~~~~~~
 - Kubespray 또는 kubeadm을 사용하여 Kubernetes 클러스터 설치
 - 최소 8대 이상의 OpenStack 인스턴스 필요(마스터 및 워커 포함)
 

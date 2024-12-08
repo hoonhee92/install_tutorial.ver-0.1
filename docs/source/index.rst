@@ -69,6 +69,14 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
 --------
 
 .. toctree::
+   :caption: COREMAX OPENSTACK
+   :maxdepth: 2
+
+   개요 <intro/intro>
+
+--------
+
+.. toctree::
    :caption: 설치 가이드
    :maxdepth: 2
 

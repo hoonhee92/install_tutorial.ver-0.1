@@ -94,6 +94,23 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
    보고서 <operation/report>
    인증 <operation/auth>
    인스턴스 HA <operation/instance-ha>
+
+--------
+
+.. toctree::
+   :caption: 운영 예시
+   :maxdepth: 2
+
+   인스턴스 추가 및 관리 <example/instance-up>
+   볼륨 추가 및 연결 <example/volume-up>
+   OS 이미지 관리 <example/image>
+   네트워크 설정 <example/network>
+   NFS 관리 <example/nfs>
+   CEPH 스토리지 관리 <example/ceph>
+   그라파나 관리 <example/grafana>
+
+
+
 --------
 
 .. toctree::

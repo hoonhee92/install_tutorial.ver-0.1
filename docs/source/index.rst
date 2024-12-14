@@ -88,12 +88,12 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
    :caption: 운영 가이드
    :maxdepth: 2
 
-   대시보드 <operation/operation-openstack>
-   프로젝트 <operation/operation-openstack>
-   관리 <operation/operation-openstack>
-   보고서 <operation/operation-openstack>
-   인증 <operation/operation-openstack>
-   인스턴스 HA <operation/operation-openstack>
+   대시보드 <operation/dashboards>
+   프로젝트 <operation/project>
+   관리 <operation/admin>
+   보고서 <operation/report>
+   인증 <operation/auth>
+   인스턴스 HA <operation/instance-ha>
 --------
 
 .. toctree::

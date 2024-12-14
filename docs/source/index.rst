@@ -80,8 +80,8 @@ OpenStack과 전문 플러그인을 통해 강력한 클라우드 환경을 구�
    :caption: 설치 가이드
    :maxdepth: 2
 
-   온라인 설치 <install/install-openstack>
-   오프라인 설치 <install/install-openstack>
+   온라인 설치 <install/online>
+   오프라인 설치 <install/offline>
 --------
 
 .. toctree::

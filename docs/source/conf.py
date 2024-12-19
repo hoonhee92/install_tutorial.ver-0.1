@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'coremaxtech.openstack.guide'
-copyright = '2024, coremaxtech'
+copyright = '2024, PARK HOON HEE'
 author = '박훈희'
 
 release = '0.1'

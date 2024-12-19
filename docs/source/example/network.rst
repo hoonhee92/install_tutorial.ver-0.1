@@ -16,6 +16,7 @@ OpenStack은 **Neutron** 서비스를 통해 네트워크를 관리합니다. �
    - **네트워크 생성(Create Network)** 버튼을 클릭.
 
    - 아래 정보를 입력:
+
      - **네트워크 이름(Network Name)**: 내부 네트워크를 식별할 이름을 입력 (예: internal-net).
 
      - **서브넷 생성(Subnet)**: 체크박스를 활성화하고 아래 정보를 입력.
@@ -40,6 +41,7 @@ OpenStack은 **Neutron** 서비스를 통해 네트워크를 관리합니다. �
    - **네트워크 생성(Create Network)** 버튼을 클릭.
 
    - 아래 정보를 입력:
+
      - **네트워크 이름(Network Name)**: 외부 네트워크를 식별할 이름을 입력 (예: external-net).
 
      - **공유 네트워크(Shared Network)**: 체크박스 활성화.
@@ -109,10 +111,11 @@ OpenStack은 **Neutron** 서비스를 통해 네트워크를 관리합니다. �
 
 관련 링크
 ----------
-- OpenStack Neutron 공식 문서: <https://docs.openstack.org/neutron/latest/>
+- OpenStack Neutron 공식 문서: <https://docs.openstack.org/neutron/2024.2/>
 
 결론
 -----
-이 가이드는 OpenStack Horizon 대시보드에서 내부 네트워크(10.0.0.0/24)와 외부 네트워크(192.168.0.0/24)를 설정하고 라우터를 통해 연결하는 방법을 안내합니다. 
+이 가이드는 OpenStack Horizon 대시보드에서 내부 네트워크와 외부 네트워크를 설정하고 라우터를 통해 연결하는 방법을 안내합니다. 
+
 올바른 네트워크 설정은 가상 머신이 외부와 통신할 수 있도록 보장하며, 유연한 네트워크 구성을 통해 다양한 환경에 적응할 수 있습니다.
 
